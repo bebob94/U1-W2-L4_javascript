@@ -140,4 +140,27 @@ while (ind< 14) {
 console.log("/n---------------------------------esercizio10-------------------------");
 const charactersArray = ["g", "n", "u", "z", "d"]
 
+const newArray=[]
 
+for (let i = 0; i < charactersArray.length; i++) {
+  const element = charactersArray[i];
+  switch (true) {
+    case element === "g":
+    newArray.push(7)
+    break;
+    case element === "n":
+    newArray.push(12)
+    break;
+    case element === "u":
+    newArray.push(18)
+    break;
+    case element === "z":
+    newArray.push(21)
+    break;
+    case element === "d":
+    newArray.push(4)
+    break;
+    default:
+  }
+}
+console.log(newArray);
