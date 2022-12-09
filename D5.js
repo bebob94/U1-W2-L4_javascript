@@ -58,14 +58,14 @@ const cars = [
 for (let i = 0; i < cars.length; i++) {
   switch (true) {
     case i===0:
-    cars[i].licensePlate = "DE456HH"
+    cars[i].licensePlate = "AB456HH"
     break;
     case i===1:
-    cars[i].licensePlate = "SD745LC"
+    cars[i].licensePlate = "CD745LC"
+    break;
     case i===2:
-    cars[i].licensePlate = "JS234KL"
-    case i===3:
-    cars[i].licensePlate = "DF642UH"
+    cars[i].licensePlate = "EF234KL"
+    break;
     default:
   }
 }
