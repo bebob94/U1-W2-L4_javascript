@@ -110,7 +110,7 @@ console.log(justTrims);
 console.log("/n---------------------------------esercizio8-------------------------");
 for (let i = 0; i < cars.length; i++) {
   const element = cars[i].color;
-  if (element.indexOf === "b") {
+  if (cars[i].color.charAt(0) === "b") {
     console.log("Fizz");
   }else{
     console.log("Buzz");
