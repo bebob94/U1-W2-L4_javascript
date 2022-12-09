@@ -64,6 +64,8 @@ for (let i = 0; i < cars.length; i++) {
     cars[i].licensePlate = "SD745LC"
     case i===2:
     cars[i].licensePlate = "JS234KL"
+    case i===3:
+    cars[i].licensePlate = "DF642UH"
     default:
   }
 }
