@@ -88,7 +88,7 @@ console.log(cars);
 
 for (let i = 0; i < cars.length; i++) {
   
-  cars[i].trims.pop
+  cars[i].trims.splice(2,1)
 
   
 }
@@ -132,6 +132,17 @@ while (ind< 14) {
   
   ind++
 }
+
+console.log("oppure");
+
+ind = 0
+
+while (numericArray[ind] !== 66) {
+    console.log(numericArray[ind]);
+    ind++
+}
+
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
